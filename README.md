@@ -12,33 +12,33 @@
 
 <h3>Installing</h3>
 <ol>
-    <li>Clone the repository to your local machine:</li>
-    <pre><code>git clone https://github.com/GDS2005/pharmatube.git</code></pre>
+<li>Clone the repository to your local machine:</li>
+<pre><code>git clone https://github.com/GDS2005/pharmatube.git</code></pre>
 
-    <li>Navigate to the project directory:</li>
-    <pre><code>cd pharmatube</code></pre>
+<li>Navigate to the project directory:</li>
+<pre><code>cd pharmatube</code></pre>
 
-    <li>Create a virtual environment:</li>
-    <pre><code>python3 -m venv venv</code></pre>
+<li>Create a virtual environment:</li>
+<pre><code>python3 -m venv venv</code></pre>
 
-    <li>Activate the virtual environment:</li>
-    <pre><code>source venv/bin/activate   <!-- On Windows, use `venv\Scripts\activate` --></code></pre>
+<li>Activate the virtual environment:</li>
+<pre><code>source venv/bin/activate   <!-- On Windows, use `venv\Scripts\activate` --></code></pre>
 
-    <li>Install project dependencies:</li>
-    <pre><code>pip install -r requirements.txt</code></pre>
+<li>Install project dependencies:</li>
+<pre><code>pip install -r requirements.txt</code></pre>
 
-    <li>Create a <code>.env</code> file using the provided <code>.env.example</code> template:</li>
-    <pre>
-        <code>
-        DB_HOST=localhost
-        DB_PORT=5432
-        DB_NAME=my_database
-        DB_USER=my_user
-        DB_PASSWORD=my_password
-        </code>
-    </pre>
+<li>Create a <code>.env</code> file using the provided <code>.env.example</code> template:</li>
+<pre>
+    <code>
+    DB_HOST=localhost
+    DB_PORT=5432
+    DB_NAME=my_database
+    DB_USER=my_user
+    DB_PASSWORD=my_password
+    </code>
+</pre>
 
-    <li>Edit the <code>.env</code> file with your specific configuration settings.</li>
+<li>Edit the <code>.env</code> file with your specific configuration settings.</li>
 </ol>
 
 <h2>Running with Docker</h2>
