@@ -1,4 +1,4 @@
-<h1>Django Project with VirtualEnv, Decouple, and Docker</h1>
+<h1>Django Project with VirtualEnv, Decouple, Docker and API REST</h1>
 
 <p>This is a Django project template that incorporates VirtualEnv for environment isolation, Decouple for managing configurations, and Docker for containerization.</p>
 
