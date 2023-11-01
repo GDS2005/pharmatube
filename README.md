@@ -39,10 +39,14 @@
 </pre>
 
 <li>Edit the <code>.env</code> file with your specific configuration settings.</li>
-</ol>
 
-<li>Migrate to create localy the database configuration</li>
+<li>Needed if we make some changes in the code.</li>
+<pre><code>python manage.py makemigrations</code></pre>
+
+<li>Migrate to create the table with the models configuration.</li>
 <pre><code>python manage.py migrate</code></pre>
+
+</ol>
 
 <h2>Running with Docker</h2>
 <ol>
