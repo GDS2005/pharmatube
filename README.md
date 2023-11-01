@@ -41,13 +41,16 @@
 <li>Edit the <code>.env</code> file with your specific configuration settings.</li>
 </ol>
 
+<li>Migrate to create localy the database configuration</li>
+<pre><code>python manage.py migrate</code></pre>
+
 <h2>Running with Docker</h2>
 <ol>
-    <li>Build the Docker image:</li>
-    <pre><code>docker build -t pharmatube .</code></pre>
+<li>Build the Docker image:</li>
+<pre><code>docker build -t pharmatube .</code></pre>
 
-    <li>Start the Docker container:</li>
-    <pre><code>docker run -p 8000:8000 pharmatube</code></pre>
+<li>Start the Docker container:</li>
+<pre><code>docker run -p 8000:8000 pharmatube</code></pre>
 </ol>
 
 <p>The application will be accessible at <a href="http://localhost:8000">http://localhost:8000</a>.</p>

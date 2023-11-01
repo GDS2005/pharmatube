@@ -13,5 +13,8 @@ class Product(models.Model):
     supplier_contact = models.CharField(max_length=100)
     date_received = models.DateField()
 
+    class Meta:
+        db_table = 'products'  # Set the desired table name here. Else, the format will be {app_name}_{model_name}
+
     def __str__(self):
         return self.product_name
