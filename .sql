@@ -19,5 +19,3 @@ INSERT INTO products
 (product_name, category, manufacturer, dosage, price, quantity_in_stock, expiration_date, supplier_id, supplier_name, supplier_contact, date_received) 
 VALUES 
 ('Aspirin', 'Medicine', 'Bayer', '500mg', 5.99, 100, '2023-12-31', 1, 'Pharma Co', '555-555-5555', '2023-10-30');
-
-/* Locally, we need to install psycopg*/
