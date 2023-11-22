@@ -31,7 +31,7 @@
 <pre>
     <code>
     DB_HOST=localhost
-    DB_PORT=5432
+    DB_PORT=3306
     DB_NAME=my_database
     DB_USER=my_user
     DB_PASSWORD=my_password
