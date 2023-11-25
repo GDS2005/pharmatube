@@ -74,7 +74,7 @@
 <p>Please read <a href="CONTRIBUTING.md">CONTRIBUTING.md</a> for details on our code of conduct, and the process for submitting pull requests to us.</p>
 
 <h2>License</h2>
-<p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
+<p>This project is licensed under the Pharmatube License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
 
 <h2>Acknowledgments</h2>
 <ul>

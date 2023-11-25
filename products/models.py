@@ -12,6 +12,9 @@ class Product(models.Model):
     supplier_name = models.CharField(max_length=100)
     supplier_contact = models.CharField(max_length=100)
     date_received = models.DateField()
+    height = models.DecimalField(max_digits=5, decimal_places=2)
+    width = models.DecimalField(max_digits=5, decimal_places=2)
+    length = models.DecimalField(max_digits=5, decimal_places=2)
 
     class Meta:
         db_table = 'products'  # Set the desired table name here. Else, the format will be {app_name}_{model_name}
