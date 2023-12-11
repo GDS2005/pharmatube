@@ -40,6 +40,8 @@
 
 <li>Edit the <code>.env</code> file with your specific configuration settings.</li>
 
+<li>There is important to check if products/migrations is empty</li>
+
 <li>Needed if we make some changes in the code.</li>
 <pre><code>python manage.py makemigrations</code></pre>
 
@@ -47,17 +49,6 @@
 <pre><code>python manage.py migrate</code></pre>
 
 </ol>
-
-<h2>Running with Docker</h2>
-<ol>
-<li>Build the Docker image:</li>
-<pre><code>docker build -t pharmatube .</code></pre>
-
-<li>Start the Docker container:</li>
-<pre><code>docker run -p 8000:8000 pharmatube</code></pre>
-</ol>
-
-<p>The application will be accessible at <a href="http://localhost:8000">http://localhost:8000</a>.</p>
 
 <h2>Development</h2>
 <p>While working on the project, ensure that the virtual environment is activated. You can run the Django development server using the following command:</p>
