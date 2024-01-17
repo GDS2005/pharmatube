@@ -22,7 +22,7 @@
 <pre><code>python3 -m venv venv</code></pre>
 
 <li>Activate the virtual environment:</li>
-<pre><code>source venv/bin/activate   <!-- On Windows, use `venv\Scripts\activate` --></code></pre>
+<pre><code>venv\Scripts\activate</code></pre>
 
 <li>Install project dependencies:</li>
 <pre><code>pip install -r requirements.txt</code></pre>
